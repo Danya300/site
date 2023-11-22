@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мечтаю посетить</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100 p-4">
+    <nav class="bg-blue-500 p-4">
+        <ul class="flex justify-center">
+            <li class="mr-4"><a href="index.html" class="text-white hover:text-yellow-300">Главная</a></li>
+            <li class="mr-4"><a href="best_places.html" class="text-white hover:text-yellow-300">Лучшие места</a></li>
+            <li class="mr-4"><a href="tips.html" class="text-white hover:text-yellow-300">Советы и рекомендации</a></li>
+            <li class="mr-4"><a href="gallery.html" class="text-white hover:text-yellow-300">Фотогалерея</a></li>
+            <li><a href="travel_stories.html" class="text-white hover:text-yellow-300">Истории путешествий</a></li>
+        </ul>
+    </nav>
+
+    <h1 class="text-3xl font-bold text-center mb-4">Я мечтаю посетить</h1>
+
+    <div class="flex flex-wrap">
+        <!-- Первая карточка -->
+        <div id="paris" class="w-full md:w-1/2 lg:w-1/3 p-4">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-xl font-semibold mb-2">Париж, Франция</h2>
+                <img src="https://s1.1zoom.me/b5050/674/France_Houses_Rivers_472487_3840x2400.jpg" alt="Париж"
+                    class="w-full h-48 object-cover rounded-lg mb-2">
+                <p class="text-gray-700">Романтичная атмосфера, Эйфелева башня, и вкусная кухня.</p>
+                <h3 class="text-lg font-semibold mt-4">Популярные достопримечательности:</h3>
+                <ul class="list-disc pl-6">
+                    <li>Эйфелева башня</li>
+                    <li>Лувр</li>
+                    <li>Нотр-Дам-де-Пари</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Вторая карточка -->
+        <div id="tokyo" class="w-full md:w-1/2 lg:w-1/3 p-4">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-xl font-semibold mb-2">Токио, Япония</h2>
+                <img src="https://traveltimes.ru/wp-content/uploads/2022/07/5e6675b5324b988a3ed3f0b11176a5f6b8771111-scaled.jpg"
+                    alt="Токио" class="w-full h-48 object-cover rounded-lg mb-2">
+                <p class="text-gray-700">Современные технологии, традиционные храмы и культура.</p>
+                <h3 class="text-lg font-semibold mt-4">Интересные места в Токио:</h3>
+                <ol class="list-decimal pl-6">
+                    <li>Сады Цукуба-эн</li>
+                    <li>Сенсодзи-храм</li>
+                    <li>Район Акихабара</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Третья карточка -->
+        <div id="machu-picchu" class="w-full md:w-1/2 lg:w-1/3 p-4">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h2 class="text-xl font-semibold mb-2">Мачу-Пикчу, Перу</h2>
+                <img src="https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666400792_6-mykaleidoscope-ru-p-tsitadel-inkov-machu-pikchu-oboi-6.jpg"
+                    alt="Мачу-Пикчу" class="w-full h-48 object-cover rounded-lg mb-2">
+                <p class="text-gray-700">Древний город в горах, потрясающие виды.</p>
+                <h3 class="text-lg font-semibold mt-4">Что посмотреть в Мачу-Пикчу:</h3>
+                <ul class="list-disc pl-6">
+                    <li>Главный дворец</li>
+                    <li>Солнечный храм</li>
+                    <li>Врата Солнца</li>
+                </ul>
+            </div>
+        </div>
+        <title>Красивый календарь</title>
+        </head>
+
+        <body class="flex h-screen items-center justify-center bg-gray-200">
+            <div class="rounded-lg bg-white p-6 shadow-md">
+                <div class="mb-4 flex items-center justify-between">
+                    <button class="text-gray-600 hover:text-gray-700">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                            </path>
+                        </svg>
+                    </button>
+                    <h2 class="text-xl font-semibold text-gray-800">Ноябрь 2023</h2>
+                    <button class="text-gray-600 hover:text-gray-700">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="grid grid-cols-7 gap-4">
+                    <!-- Заголовки дней недели -->
+                    <div class="text-center text-sm text-gray-600">Пн</div>
+                    <div class="text-center text-sm text-gray-600">Вт</div>
+                    <div class="text-center text-sm text-gray-600">Ср</div>
+                    <div class="text-center text-sm text-gray-600">Чт</div>
+                    <div class="text-center text-sm text-gray-600">Пт</div>
+                    <div class="text-center text-sm text-gray-600">Сб</div>
+                    <div class="text-center text-sm text-gray-600">Вс</div>
+
+                    <!-- Дни календаря -->
+                    <!-- Пример для ноября 2023 года -->
+                    <!-- Вставьте свои дни месяца в соответствующие ячейки -->
+                    <div class="text-center text-gray-400">-</div>
+                    <div class="text-center text-gray-400">-</div>
+                    <div class="text-center">-</div>
+                    <div class="text-center">1</div>
+                    <div class="text-center">2</div>
+                    <div class="text-center">3</div>
+                    <div class="text-center">4</div>
+                    <div class="text-center">5</div>
+
+                    <div class="text-center">7</div>
+                    <div class="text-center">8</div>
+                    <div class="text-center">9</div>
+                    <div class="text-center">10</div>
+                    <div class="text-center">11</div>
+                    <div class="text-center">12</div>
+                    <div class="text-center">13</div>
+                    <div class="text-center">14</div>
+                    <div class="text-center">15</div>
+                    <div class="text-center">16</div>
+                    <div class="text-center">17</div>
+                    <div class="text-center">18</div>
+                    <div class="text-center">19</div>
+                    <div class="bg-yellow-300 text-center font-semibold text-blue-500">20</div>
+                    <div class="text-center">21</div>
+                    <div class="text-center">22</div>
+                    <div class="text-center">23</div>
+                    <div class="text-center">24</div>
+                    <div class="text-center">25</div>
+                    <div class="text-center">26</div>
+                    <div class="text-center">27</div>
+                    <div class="text-center">28</div>
+                    <div class="text-center">29</div>
+                    <div class="text-center">30</div>
+
+
+                </div>
+            </div>
+        </body>
+        <footer class="bg-gray-800 text-white p-4">
+            <!-- Контактная информация -->
+            <div class="mb-4">
+                <p>Адрес: Улица, Город, Страна</p>
+                <p>Телефон: +7 (123) 456-7890</p>
+                <p>Email: info@example.com</p>
+            </div>
+
+            <!-- Ссылки на социальные сети -->
+            <div class="flex space-x-4">
+                <a href="#" class="text-white hover:text-gray-400">Facebook</a>
+                <a href="#" class="text-white hover:text-gray-400">Twitter</a>
+                <a href="#" class="text-white hover:text-gray-400">Instagram</a>
+            </div>
+
+            <!-- Информация об авторских правах -->
+            <p class="mt-4">&copy; 2023 Ваша компания. Все права защищены.</p>
+        </footer>
+
+</html>
